@@ -1,0 +1,239 @@
+23:43:48.764 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 6356 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:43:48.764 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:43:49.700 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:43:49.700 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:43:49.715 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:43:49.716 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:43:49.781 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:43:49.781 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 962 ms
+23:43:49.854 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': No qualifying bean of type 'com.zg.hrjob_server.service.ICandidateService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+23:43:49.854 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:43:49.869 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:43:49.907 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field candidateService in com.zg.hrjob_server.controller.CandidateController required a bean of type 'com.zg.hrjob_server.service.ICandidateService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zg.hrjob_server.service.ICandidateService' in your configuration.
+
+23:44:12.640 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 9996 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:44:12.642 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:44:13.608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:44:13.616 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:44:13.619 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:44:13.619 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:44:13.671 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:44:13.673 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 976 ms
+23:44:13.731 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': No qualifying bean of type 'com.zg.hrjob_server.service.ICandidateService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+23:44:13.734 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:44:13.751 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:44:13.772 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field candidateService in com.zg.hrjob_server.controller.CandidateController required a bean of type 'com.zg.hrjob_server.service.ICandidateService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zg.hrjob_server.service.ICandidateService' in your configuration.
+
+23:45:04.496 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 12024 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:45:04.499 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:45:06.386 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:45:06.393 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:45:06.397 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:45:06.397 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:45:06.479 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:45:06.483 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+23:45:06.560 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': No qualifying bean of type 'com.zg.hrjob_server.service.ICandidateService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+23:45:06.566 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:45:06.585 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:45:06.615 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field candidateService in com.zg.hrjob_server.controller.CandidateController required a bean of type 'com.zg.hrjob_server.service.ICandidateService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.zg.hrjob_server.service.ICandidateService' in your configuration.
+
+23:45:39.107 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 6020 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:45:39.107 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:45:40.101 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:45:40.101 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:45:40.101 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:45:40.101 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:45:40.170 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:45:40.170 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1004 ms
+23:45:40.320 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': Error creating bean with name 'candidateServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'candidateMapper' defined in file [D:\repository\HRJob\HRJobUI\hrjob-server\target\classes\com\zg\hrjob_server\mapper\CandidateMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+23:45:40.320 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:45:40.340 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:45:40.359 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: "com.alibaba.druid.pool.DruidDataSource"
+    Origin: class path resource [application.yml] - 5:11
+    Reason: failed to convert java.lang.String to java.lang.Class<javax.sql.DataSource> (caused by java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource)
+
+Action:
+
+Update your application's configuration
+
+23:46:06.626 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 6280 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:46:06.629 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:46:07.582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:46:07.590 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:46:07.593 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:46:07.593 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:46:07.646 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:46:07.648 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 974 ms
+23:46:07.813 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': Error creating bean with name 'candidateServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'candidateMapper' defined in file [D:\repository\HRJob\HRJobUI\hrjob-server\target\classes\com\zg\hrjob_server\mapper\CandidateMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+23:46:07.816 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:46:07.838 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:46:07.858 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: "com.alibaba.druid.pool.DruidDataSource"
+    Origin: class path resource [application.yml] - 5:11
+    Reason: failed to convert java.lang.String to java.lang.Class<javax.sql.DataSource> (caused by java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource)
+
+Action:
+
+Update your application's configuration
+
+23:46:44.149 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 13304 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:46:44.152 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:46:46.293 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:46:46.305 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:46:46.311 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:46:46.314 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:46:46.392 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:46:46.394 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2165 ms
+23:46:46.570 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'candidateController': Unsatisfied dependency expressed through field 'candidateService': Error creating bean with name 'candidateServiceImpl': Unsatisfied dependency expressed through field 'baseMapper': Error creating bean with name 'candidateMapper' defined in file [D:\repository\HRJob\HRJobUI\hrjob-server\target\classes\com\zg\hrjob_server\mapper\CandidateMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Generic.class]: Unsatisfied dependency expressed through method 'dataSource' parameter 0: Error creating bean with name 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties': Could not bind properties to 'DataSourceProperties' : prefix=spring.datasource, ignoreInvalidFields=false, ignoreUnknownFields=true
+23:46:46.576 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+23:46:46.593 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:46:46.619 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.datasource.type' to java.lang.Class<javax.sql.DataSource>:
+
+    Property: spring.datasource.type
+    Value: "com.alibaba.druid.pool.DruidDataSource"
+    Origin: class path resource [application.yml] - 5:11
+    Reason: failed to convert java.lang.String to java.lang.Class<javax.sql.DataSource> (caused by java.lang.ClassNotFoundException: com.alibaba.druid.pool.DruidDataSource)
+
+Action:
+
+Update your application's configuration
+
+23:47:25.107 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 13612 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:47:25.110 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:47:26.027 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:47:26.043 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:47:26.048 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:47:26.048 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:47:26.100 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:47:26.100 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 944 ms
+23:47:26.821 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:47:26.850 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:47:26.863 [main] INFO  c.z.h.HrjobServerApplication - Started HrjobServerApplication in 2.149 seconds (process running for 2.41)
+23:47:26.866 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:47:26.872 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.zg.hrjob_server.HrjobServerApplication.main(HrjobServerApplication.java:12)
+23:47:26.944 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+23:57:13.312 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 9356 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+23:57:13.314 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+23:57:14.237 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+23:57:14.245 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:57:14.248 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:57:14.248 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+23:57:14.324 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:57:14.326 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 970 ms
+23:57:15.055 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:57:15.086 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+23:57:15.096 [main] INFO  c.z.h.HrjobServerApplication - Started HrjobServerApplication in 2.161 seconds (process running for 2.416)
+23:57:15.101 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+23:57:15.117 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'ddlApplicationRunner' is expected to be of type 'org.springframework.boot.Runner' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:403)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:770)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.zg.hrjob_server.HrjobServerApplication.main(HrjobServerApplication.java:12)
+23:57:15.159 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
