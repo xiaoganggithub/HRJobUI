@@ -24,3 +24,18 @@ org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'dd
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
 	at com.zg.hrjob_server.HrjobServerApplication.main(HrjobServerApplication.java:13)
 00:00:48.612 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+00:01:24.597 [main] INFO  c.z.h.HrjobServerApplication - Starting HrjobServerApplication using Java 17.0.12 with PID 3568 (D:\repository\HRJob\HRJobUI\hrjob-server\target\classes started by ZHENGYRAN in D:\repository\HRJob\HRJobUI)
+00:01:24.597 [main] INFO  c.z.h.HrjobServerApplication - No active profile set, falling back to 1 default profile: "default"
+00:01:25.154 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zg.hrjob_server.mapper]' package. Please check your configuration.
+00:01:25.527 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+00:01:25.543 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+00:01:25.543 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+00:01:25.543 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30]
+00:01:25.613 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:01:25.613 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 960 ms
+00:01:25.924 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+00:01:25.959 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+00:01:25.959 [main] INFO  c.z.h.HrjobServerApplication - Started HrjobServerApplication in 1.725 seconds (process running for 1.995)
+00:02:29.224 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:02:29.224 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+00:02:29.224 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
