@@ -1,7 +1,7 @@
 package com.zg.hrjob_server.controller;
 
 import com.zg.hrjob_server.entity.Candidate;
-import com.zg.hrjob_server.service.CandidateService;
+import com.zg.hrjob_server.service.ICandidateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,7 +16,7 @@ import java.util.List;
 public class CandidateController {
 
     @Autowired
-    private CandidateService candidateService;
+    private ICandidateService candidateService;
 
     /**
      * 获取所有候选人信息
