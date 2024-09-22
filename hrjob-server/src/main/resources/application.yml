@@ -18,3 +18,9 @@ mybatis-plus:
 
 logging:
   config: classpath:logback-spring.xml
+
+api:
+  url:
+    floor-layout: http://api.example.com/floor-layout
+    work-orders: http://api.example.com/work-orders
+    precise-work-orders: http://api.example.com/precise-work-orders
